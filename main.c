@@ -5,6 +5,10 @@
 #define MAX_TABLE_TEMP = 110
 #define MAX_HOTEND_TEMP = 260
 
-int main() {
-    
-}
+#define START_COORD_X = 0
+#define START_COORD_Y = 0
+#define START_COORD_Z = 0
+
+#define CURRENT_COORD_X = 0
+#define CURRENT_COORD_Y = 0
+#define CURRENT_COORD_Z = 0

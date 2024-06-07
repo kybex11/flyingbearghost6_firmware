@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <dirent.h>
 
-int main() {
+int main()
+{
     struct dirent *de;
     DIR *dr = opendir(". plugins/");
 
