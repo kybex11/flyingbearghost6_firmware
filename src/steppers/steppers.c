@@ -8,11 +8,11 @@ void setup()
     stepper.setAcceleration(STEP_ACCELERATION);
 }
 
-void move(float cord) {
-    stepper.move(cord);
-    stepper.runSpeedToPosition();
+void move(float cord, int stepper_name) {
+    stepper[stepper_name].move(cord);
+    stepper[stepper_name].runSpeedToPosition();
 }
 
-void stop() {
-    stepper.stop()
+void stop(int stepper_name) {
+    stepper[stepper_name].stop()
 }

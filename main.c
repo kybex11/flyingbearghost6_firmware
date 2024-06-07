@@ -15,6 +15,10 @@
 
 #define ENDSTOP_SYS_ON true
 
+#define ENDSTOP_X
+#define ENDSTOP_Y
+#define ENDSTOP_Z
+
 #define AUTO_SCAN_COORD_AFTER_LAUNCH true
 
 // don't recommended change the defines
