@@ -1,0 +1,3 @@
+// drop plugins file to CD card and the automaticly compiled and dropped to the printer memory. Function with remove useless plugins in development...
+
+#build_ignore[plugins/*]: true
