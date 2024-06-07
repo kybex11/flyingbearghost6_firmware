@@ -15,9 +15,9 @@
 
 #define ENDSTOP_SYS_ON true
 
-#define ENDSTOP_X
-#define ENDSTOP_Y
-#define ENDSTOP_Z
+#define ENDSTOP_X false
+#define ENDSTOP_Y false
+#define ENDSTOP_Z false
 
 #define AUTO_SCAN_COORD_AFTER_LAUNCH true
 
