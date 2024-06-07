@@ -17,5 +17,8 @@
 
 #define AUTO_SCAN_COORD_AFTER_LAUNCH true
 
+// don't recommended change the defines
 #define STEP_PIN 2
 #define DIR_PIN 3
+#define STEP_MAX_SPEED 150
+#define STEP_ACCELERATION 75
