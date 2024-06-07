@@ -21,6 +21,9 @@
 
 #define AUTO_SCAN_COORD_AFTER_LAUNCH true
 
+#define HOTEND_HEATING_TEMP          0
+#define BED_HEATING_TEMP             0
+
 // don't recommended change the defines 
 #define STEP_PIN            2
 #define DIR_PIN             3
@@ -29,3 +32,8 @@
 #define TFT_CS              10
 #define TFT_RST             9
 #define TFT_DC              8
+
+
+//menu
+#define MENU_SELECTED_BED_TEMP      0
+#define MENU_SELECTED_HOTEND_TEMP   0
