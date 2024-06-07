@@ -32,8 +32,10 @@
 #define TFT_CS              10
 #define TFT_RST             9
 #define TFT_DC              8
-
+#define MAX_TEMP            100
+//macro
+#define SET_MAX_TEMP(temp) ((temp >MAX_TEMP) ? MAX_TEMP : temp)
 
 //menu
-#define MENU_SELECTED_BED_TEMP      0
-#define MENU_SELECTED_HOTEND_TEMP   0
+#define MENU_SELECTED_BED_TEMP      SET_MAX_TEMP(MAX_TABLE_TEMP)
+#define MENU_SELECTED_HOTEND_TEMP   SET_MAX_TEMP(MAX_HOTEND_TEMP)
