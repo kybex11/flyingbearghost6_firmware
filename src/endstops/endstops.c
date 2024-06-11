@@ -8,6 +8,12 @@ void moveIfEndstopTriggered(int tableSize, char axis, int* currentCoord, bool* e
     }
 }
 
+bool isTriggered(char endstopName) {
+    int buttonPin = 0[endstopName];
+    
+    return digitalRead(buttonPin) == HIGH;
+}
+
 void stopIfEndstopTriggered(char axis, bool endstop) {
     if (endstop) {
         stop(axis);

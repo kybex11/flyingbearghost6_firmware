@@ -33,6 +33,11 @@
 #define TFT_RST             9
 #define TFT_DC              8
 #define MAX_TEMP            100
+
+//device
+#define BCM2708_PERI_BASE           0x3F000000
+#define GPIO_BASE                   (BCM2708_PERI_BASE + 0x200000)
+
 //macro
 #define SET_MAX_TEMP(temp) ((temp >MAX_TEMP) ? MAX_TEMP : temp)
 
