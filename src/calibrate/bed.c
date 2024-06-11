@@ -13,6 +13,7 @@ int main() {
     void *gpio_map;
 
     while(1) {
+        move(1, "z");
         if (isTriggered("z")) {
             stop("z");
             
