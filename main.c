@@ -35,13 +35,15 @@
 #define TFT_RST             9
 #define TFT_DC              8
 #define MAX_TEMP            100
+#define BL_TOUCH_PIN_DATA   7
+#define BL_TOUCH_PIN_PWRD   6
 
 //device
 #define BCM2708_PERI_BASE           0x3F000000
 #define GPIO_BASE                   (BCM2708_PERI_BASE + 0x200000)
 
 //macro
-#define SET_MAX_TEMP(temp) ((temp >MAX_TEMP) ? MAX_TEMP : temp)
+#define SET_MAX_TEMP(temp)          ((temp >MAX_TEMP) ? MAX_TEMP : temp)
 
 //menu
 #define MENU_SELECTED_BED_TEMP      SET_MAX_TEMP(MAX_TABLE_TEMP)
