@@ -9,6 +9,9 @@ int main() {
         move(resonanceStress * resonanceStress - resonanceStress , "x");
         move(resonanceStress * resonanceStress - resonanceStress , "y");
         move(resonanceStress * resonanceStress - resonanceStress , "z");
-    
+    		
     }
+    stop("x");
+    stop("y");
+    stop("z");
 }
